@@ -8,10 +8,10 @@ public class Main {
       System.out.println(wCDouble);   // Outputs 9.0
 
       // Narrowing Casting
-      double myDouble = 9.78d;
-      int nCInt = (int) myDouble; // Manual casting: double to int
+      double nCDouble = 9.78d;
+      int nCInt = (int) nCDouble; // Manual casting: double to int
   
-      System.out.println(myDouble);   // Outputs 9.78
+      System.out.println(nCDouble);   // Outputs 9.78
       System.out.println(nCInt);      // Outputs 9
     }
   }
