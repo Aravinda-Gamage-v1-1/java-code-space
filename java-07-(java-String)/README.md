@@ -9,3 +9,5 @@
 * The + operator can be used between strings to combine them. This is called concatenation.
 
 * You can also use the ` concat() ` method to concatenation two strings.
+
+* Java uses the + operator for both addition and concatenation. Numbers are added. Strings are concatenated.
