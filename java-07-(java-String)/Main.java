@@ -15,5 +15,14 @@ class Main {
         String text03 = "Anura\\Kumara\\Disanayaka";
         String text04 = "Healthy eating is crucial for maintaining overall well-being and preventing chronic diseases. A balanced diet provides essential nutrients that the body needs to function correctly, including vitamins\n, minerals, protein, and healthy fats. Consuming a variety of fruits,\b vegetables, whole grains, and lean proteins\t can boost the immune system, improve mental health, and increase energy levels. Additionally, healthy eating habits can help manage weight and reduce the risk of conditions such as heart disease, diabetes, and obesity. By making mindful food choices, individuals can enhance their quality of life and promote long-term health.";
         System.out.println(text04);
+
+        int x = 10;
+        int y = 32;
+
+        System.out.println(Math.max(x, y));
+        System.out.println(Math.min(x, y));
+        System.out.println(Math.sqrt(y));
+        System.out.println(Math.abs(y));
+        System.out.println((int)(Math.random() * 101));
     }
 }
