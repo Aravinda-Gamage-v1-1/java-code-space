@@ -7,5 +7,13 @@ class Main {
         car[2] = "Opel";
         System.out.println(car[2]);
         System.out.println(num.length);
+
+        for (int i = 0; i < car.length; i++) {
+            System.out.println(car[i]);
+        }
+
+        for (String i : car){
+            System.out.println(i);
+        }
     }
 }
