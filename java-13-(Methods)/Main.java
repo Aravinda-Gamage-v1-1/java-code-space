@@ -2,10 +2,13 @@ class Main {
     public static void main(String[] args) {
         print();
         fName("Aravinda");
+        System.out.println(lName());
         print();
         fName("Yasith");
+        System.out.println(lName());
         print();
         fName("Gayanuka");
+        System.out.println(lName());
     }
 
     static void print(){
@@ -13,6 +16,10 @@ class Main {
     }
 
     static void fName(String name){
-        System.out.println(name);
+        System.out.print(name);
+    }
+
+    static String lName(){
+        return " Gamage";
     }
 }
