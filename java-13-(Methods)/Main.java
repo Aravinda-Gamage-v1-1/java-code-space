@@ -9,6 +9,10 @@ class Main {
         print();
         fName("Gayanuka");
         System.out.println(lName());
+
+        name();
+        name("Aravinda");
+        name("Aravinda", "Sumudu");
     }
 
     static void print(){
@@ -21,5 +25,17 @@ class Main {
 
     static String lName(){
         return " Gamage";
+    }
+
+    static void name(){
+        System.out.println("Hello");
+    }
+
+    static void name(String fName){
+        System.out.println("Hello " + fName);
+    }
+
+    static void name(String fName, String lName){
+        System.out.println("Hello " + fName + " " + lName);
     }
 }

@@ -6,3 +6,6 @@
 #### Methods parameters
 * Information can be passed to methods as a parameters. Parameters act as variable inside the method.
 * Parameters are specified after the method name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma.
+
+#### Method overloading
+* Multiple methods can have the same name with different parameters.
