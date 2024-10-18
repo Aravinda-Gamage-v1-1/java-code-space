@@ -13,6 +13,9 @@ class Main {
         name();
         name("Aravinda");
         name("Aravinda", "Sumudu");
+
+        int result = sum(5);
+        System.out.println(result);
     }
 
     static void print(){
@@ -37,5 +40,13 @@ class Main {
 
     static void name(String fName, String lName){
         System.out.println("Hello " + fName + " " + lName);
+    }
+
+    public static int sum(int k) {
+        if (k > 0) {
+          return k + sum(k - 1);
+        } else {
+          return 0;
+        }
     }
 }
