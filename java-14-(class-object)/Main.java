@@ -8,6 +8,8 @@ class Main {
         Main myObj2 = new Main();
         System.out.println(myObj2.x);
 
+        printStatic();
+
         Second myObjSecond = new Second();
         myObjSecond.print();
         System.out.println(myObjSecond.massage);

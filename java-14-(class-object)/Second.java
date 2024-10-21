@@ -4,4 +4,8 @@ class Second {
     public void print(){
         System.out.println(massage);
     }
+
+    public static void printStatic(){
+        System.out.println("This is static method");
+    }
 }
