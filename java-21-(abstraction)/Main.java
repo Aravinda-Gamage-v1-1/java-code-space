@@ -1,9 +1,9 @@
 class Main {
-    public static void main(String[] args) {
-        Vehicle vehi = new Vehicle();
-        vehi.vehicleSound();
-        vehi.tyreAmount();
-    }
+//    public static void main(String[] args) {
+//        Vehicle vehi = new Vehicle();
+//        vehi.vehicleSound();
+//        vehi.tyreAmount();
+//    }
 }
     //Abstract class
 abstract class Vehicle {
@@ -15,8 +15,8 @@ abstract class Vehicle {
     }
 }
 
-//Subclass 
-public Car extents Vehicle {
+//Subclass
+Car extents Vehicle {
     public void vehicleSound(){
         System.out.println("burmmmm");
     }

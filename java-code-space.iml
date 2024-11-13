@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java-01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-04-(data-type)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-05-(type-casting)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-06-(java-operator)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-07-(java-String)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-08-(if)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-09-(switch)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-10-(while-loop)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-11-(for-loop)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-12-(Array)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-13-(Methods)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-14-(class-object)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-15-(constructor)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-16-(encapsulation)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-18-(inheritance)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-20-(inner-class)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-21-(abstraction)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-25-(date)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-26-(arrayList)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-27-(linkedList)" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
