@@ -40,5 +40,36 @@ public class Main {
         char myLetter = 'D';
         boolean myBool = true;
         String myText = "Hello";
+
+        // to combine text and variables, you can use the + operator
+        System.out.println("Integer: " + myNum);
+
+        // also you can use the + operator to combine variable to another variable
+        String fName = "Aravinda";
+        String lName = "Gamage";
+        String fullName = fName + " " + lName;
+        System.out.println("Full Name: " + fullName + "\n");
+
+        // for numbers, you can use the + operator to add them
+        int x = 5;
+        int y = 10;
+        int sum = x + y;
+        System.out.println("Sum: " + sum + "\n");
+
+        // to declare multiple variables of the same type, you can do it in one line
+        int a = 1, b = 2, c = 3;
+        // print the multiple variables     
+        System.out.println("Multiple Variables: a = " + a + ", b = " + b + ", c = " + c + "\n");
+        // to declare multiple variables of different types, you can do it in one line
+        int d = 4; float e = 5.5f; char f = 'G'; boolean g = false; String h = "World"; 
+        // print the multiple variables of different types
+        System.out.println("Multiple Variables of Different Types: d = " + d + ", e = " + e + ", f = " + f + ", g = " + g + ", h = " + h + "\n");
+        
+        // also you can assign the same value to multiple variables of the same type
+        int i, j, k;
+        // assign the same value to multiple variables
+        i = j = k = 10;
+        // print the variables  
+        System.out.println("Same Value to Multiple Variables: i = " + i + ", j = " + j + ", k = " + k + "\n");
     }
 }
